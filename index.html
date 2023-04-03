@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./images/30-302042_logo-travel-clip-art-travel-logos.png" type="image" sizes="32x32">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <title>Travel Norway</title>
+</head>
+<body>
+    <div id="home"></div>
+    <div class="nav-container">
+        <div class="logo"> <h2><a href="#home">reise</a></h2> </div>
+        <ul class="nav-bar">
+            <li class="underline nav-item"> <a href="#home">Home</a> </li>
+            <li class="nav-item"> <a href="#act">Activities</a> </li>
+            <li class="nav-item"> <a href="#pack">Packages</a> </li>
+            <li class="nav-item"> <a href="#contact">Contact Us</a> </li>
+        </ul>
+    </div>
+    <div class="head-container">
+
+
+        <div class="content">
+            <h1>Norway</h1>
+            <h3>The Country of Rare Treasures</h3>
+        </div>
+
+        <button class="ex-btn"> <a class="ex" href="#ex">Explore</a> </button>
+        
+    </div>
+
+    <section class="attractions">
+        <div id="ex"></div>
+        <div class="sec2-container">
+            <h1 class="sec2-head">Attractions</h1>
+            <h3 class="sec2-para">
+                Norway is a Scandinavian country encompassing mountains, glaciers and deep coastal fjords.
+            </h3>
+        </div>
+
+        <section class="slide-container">
+            <div class="mySlides">
+                <div class="currentNo"> <h4>1 / 4</h4> </div>
+                <img class="slide" src="./images/city.jpg" alt="The City" style="width: 100%;">
+            </div>
+        
+            <div class="img-caption">
+                <p id="caption">The Charming Cities</p>
+            </div>
+
+            <a class="prev" onclick="prev()">❮</a>
+            <a class="next" onclick="next()">❯</a>
+
+            <div class="row">
+                <div class="column">
+                    <img class="thumb thumb-0 cap-0" src="./images/city.jpg" alt="The Charming Cities" style="width: 100%; height: 76px;">
+                </div>
+                <div class="column">
+                    <img class="thumb thumb-1 cap-1" src="./images/aurora.jpg" alt="The Magnificent Aurora (Northern Lights)" style="width: 100%; height: 76px;">
+                </div>
+                <div class="column">
+                    <img class="thumb thumb-2 cap-2" src="./images/fjords.jpg" alt="The Panoramic Fjords" style="width: 100%; height: 76px;">
+                </div>
+                <div class="column">
+                    <img class="thumb thumb-3 cap-3" src="./images/mount.jpg" alt="The Breathtaking View of Snowy Mountains" style="width: 100%; height: 76px;">
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <section class="three" id="three">
+        <div id="act"></div>
+        <h1 class="sec3-head">What can we do in Norway?</h1>
+        <div class="act-container">
+            <div class="act-item">
+                <img class="act-img" src="./images/cruise.jpg" alt="">
+                <div class="act-content">
+                    <h3 class="act-head">Crusing in the Great Fjords</h3>
+                    <p class="act-para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae ut voluptatum porro unde id tempore quae alias, consequuntur delectus quod sequi sed modi incidunt nesciunt iste velit corporis obcaecati aut. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt iusto ipsa obcaecati odit! Voluptas iste, similique tempora enim, doloribus vel ea suscipit numquam officia sed velit dignissimos voluptates, debitis expedita!</p>
+                </div>
+            </div>
+            <div class="act-item">
+                <div class="act-content">
+                    <h3 class="act-head">Hang Around the Beautiful City</h3>
+                    <p class="act-para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae ut voluptatum porro unde id tempore quae alias, consequuntur delectus quod sequi sed modi incidunt nesciunt iste velit corporis obcaecati aut. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt iusto ipsa obcaecati odit! Voluptas iste, similique tempora enim, doloribus vel ea suscipit numquam officia sed velit dignissimos voluptates, debitis expedita!</p>
+                </div>
+                <img class="act-img" src="./images/Tromsø.jpg" alt="">
+            </div>
+            <div class="act-item">
+                <img class="act-img" src="./images/climb.jpg" alt="">
+                <div class="act-content">
+                    <h3 class="act-head">Climb the Massive Mountains</h3>
+                    <p class="act-para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae ut voluptatum porro unde id tempore quae alias, consequuntur delectus quod sequi sed modi incidunt nesciunt iste velit corporis obcaecati aut. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt iusto ipsa obcaecati odit! Voluptas iste, similique tempora enim, doloribus vel ea suscipit numquam officia sed velit dignissimos voluptates, debitis expedita!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="four">
+        <div id="pack"></div>
+        <div class="sec4-container">
+            <h1 class="sec4-head">Tour Packages</h1>
+            <div class="pack-container">
+                <div class="package">
+                    <i class="fas fa-plane-departure"></i>
+                    <h2 class="pack-head"> Normal Package</h2>
+                    <h4>3 Nights / 4 Days</h4>
+                    <p class="pack-para">+ Transportation Fees</p>
+                    <h3>Starting from €1000</h3>
+                    <h4>(Fixed Price)</h4>
+                    <button class="buy">Buy Now</button>
+                </div>
+                <div class="package">
+                    <i class="fas fa-plane-departure green"></i>
+                    <h2 class="pack-head"> Pro Package </h2>
+                    <h4>7 Nights / 8 Days</h4>
+                    <p class="pack-para">Transportation Fees + Hotel Expenses</p>
+                    <h3>Starting from €3000</h3>
+                    <h4>(Can Negotiate)</h4>
+                    <button class="buy">Buy Now</button>
+                </div>
+                <div class="package">
+                    <i class="fas fa-plane-departure red"></i>
+                    <h2 class="pack-head">Advanced Package</h2>
+                    <h4>14 Nights / 15 Days</h4>
+                    <p class="pack-para">Transportation Fees + Hotel Expenses</p>
+                    <h3>Starting from €7000</h3>
+                    <h4>(Can Negotiate)</h4>
+                    <button class="buy">Buy Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="five">
+        <div class="sec5-container">
+            <div class="call-container">
+                <h1 class="call-head">Contact Us !</h1>
+                <h3 class="phone">Mobile Phone - 09 123456789</h3>
+
+                <div class="social">
+                    <a href="https://www.facebook.com/htetarkar.1082003" target="_blink"><i class="fab fa-facebook"></i></a> 
+                    <a href="https://www.instagram.com/it_is_me_arkar/" target="_blink"><i class="fab fa-instagram-square"></i></a>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <section class="six" id="contact">
+        <h4 class="credit">Created by Htet Arkar</h4>
+        <h5>arkar.acc2003@gmail.com</h5>
+    </section>
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
+
+<!-- #132636 -->
